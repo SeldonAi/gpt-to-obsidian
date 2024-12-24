@@ -25,7 +25,7 @@ This project is licensed under the Apache-2.0 License. See the LICENSE file for 
 
 ### How to Use
 1. Clone this repository: `git clone https://github.com/SeldonAi/gpt-to-obsidian.git`
-2. Open the web application in your preferred browser (Not open with a IDE or notebook).
+2. Open the web application 'converter.html' in your preferred browser (Not open with a IDE or notebook).
 3. Paste your ChatGPT file in the text area and click the botton convert and then copy to copy it.
 
 ---
