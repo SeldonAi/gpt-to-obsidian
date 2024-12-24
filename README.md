@@ -15,7 +15,7 @@ This project is designed to help users easily transform files created by ChatGPT
 Below is a demonstration of how the application works:
 
 <div align="center">
-  <img src="./tutorial.gif" alt="Demo GIF of gpt-to-obsidian">
+  <img src="./Tutorial.gif" alt="Demo GIF of gpt-to-obsidian">
 </div>
 
 ## License [![Apache License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE)
