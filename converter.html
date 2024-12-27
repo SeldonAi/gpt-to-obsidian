@@ -134,6 +134,7 @@
     <div class="buttons">
       <button id="convertBtn">Convert to Obsidian</button>
       <button id="copyBtn">Copy</button>
+      <button id="clearBtn">Clear</button>
       <label class="switch">
         <input type="checkbox" id="themeToggleBtn">
         <span class="slider"></span>
@@ -181,6 +182,11 @@
       }, 2000);
     }
 
+    // Cancella il contenuto del textarea
+    function clearTextarea() {
+      document.getElementById('latexInput').value = '';
+    }
+
     // Cambia il tema tra dark e light
     function toggleTheme() {
       document.body.classList.toggle('light-theme');
@@ -189,6 +195,7 @@
     // Event listeners
     document.getElementById('convertBtn').addEventListener('click', convertLatex);
     document.getElementById('copyBtn').addEventListener('click', copyToClipboard);
+    document.getElementById('clearBtn').addEventListener('click', clearTextarea);
     document.getElementById('themeToggleBtn').addEventListener('change', toggleTheme);
   </script>
 </body>
